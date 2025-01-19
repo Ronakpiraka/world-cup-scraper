@@ -1,7 +1,19 @@
 {
-  "devDependencies": {
-    "eslint": "^9.18.0",
-    "jest": "^29.7.0",
-    "prettier": "^3.4.2"
-  }
+  "name": "world-cup-scraper",
+  "version": "1.0.0",
+  "description": "FIFA World Cup finals data scraper",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "googleapis": "^118.0.0",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
